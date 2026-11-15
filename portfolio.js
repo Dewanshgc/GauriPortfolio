@@ -5,7 +5,6 @@ const portfolioItems = [
   { file: 'WhatsApp Image 2026-11-15 at 3.20.50 PM (1).jpeg', title: 'Save Earth', category: 'posters', label: 'Poster · Awareness campaign', year: '2025', alt: 'Save Earth poster design' },
   { file: 'WhatsApp Image 2026-11-15 at 3.20.50 PM.jpeg', title: 'Game Esport Competition', category: 'posters', label: 'Poster · Event campaign', year: '2025', alt: 'Game esports competition poster design' },
   { file: 'WhatsApp Image 2026-11-15 at 3.20.51 PM (1).jpeg', title: 'Maa Durga Mandal', category: 'posters', label: 'Poster · Cultural event', year: '2025', alt: 'Maa Durga Mandal cultural event poster' },
-  { file: 'WhatsApp Image 2026-11-15 at 3.20.52 PM (1).jpeg', title: 'Gudi Padwa', category: 'posters', label: 'Poster · Festival campaign', year: '2025', alt: 'Gudi Padwa festival poster' },
   { file: 'WhatsApp Image 2026-11-15 at 3.20.52 PM (2).jpeg', title: 'Mohabbatein', category: 'posters', label: 'Poster · Visual concept', year: '2025', alt: 'Mohabbatein poster with a rose' },
   { file: 'Nudge livelihood fund.jpg', title: 'Nudge Livelihood VC Fund', category: 'posters', label: 'Campaign · Social impact', year: '2025', alt: 'Nudge livelihood VC fund campaign poster' },
   { file: 'Gudi Padwa!.jpg', title: 'Gudi Padwa Celebration', category: 'posters', label: 'Poster · Festival campaign', year: '2025', alt: 'Gudi Padwa celebration design' },
@@ -13,20 +12,33 @@ const portfolioItems = [
   { file: 'Blue Pink Green Minimal Flower Decorative Flag.jpg', title: 'Welcome', category: 'branding', label: 'Graphic · Decorative design', year: '2025', alt: 'Blue pink and green welcome floral design' },
   { file: 'WhatsApp Image 2026-11-15 at 3.20.51 PM (2).jpeg', title: 'Krisha Cooking', category: 'branding', label: 'Branding · Food design', year: '2025', alt: 'Krisha Cooking food branding design' },
   { file: 'WhatsApp Image 2026-11-15 at 3.20.51 PM.jpeg', title: 'Creative Collage', category: 'branding', label: 'Graphic · Collage design', year: '2025', alt: 'Creative collage graphic design' },
-  { file: 'WhatsApp Image 2026-11-15 at 3.20.53 PM (1).jpeg', title: 'Welcome Floral', category: 'branding', label: 'Graphic · Welcome design', year: '2025', alt: 'Welcome floral graphic design' },
   { file: '1.jpg', title: 'Eximious Identity Study', category: 'branding', label: 'Branding · Identity study', year: '2026', alt: 'Eximious blue identity design study' },
   { file: '2.jpg', title: 'Green House Icon', category: 'branding', label: 'Graphic · 3D icon', year: '2026', alt: 'Green house and clock 3D icon design' },
   { file: 'Copy of Cream and Brown Illustrative Boho Housewarming Invitation.jpg', title: 'Griha Pravesh', category: 'invitations', label: 'Invitation · Housewarming', year: '2024', alt: 'Illustrated Griha Pravesh housewarming invitation' },
   { file: 'Cream and Brown Boho Housewarming Invitation.jpg', title: 'Our New Home', category: 'invitations', label: 'Invitation · Housewarming', year: '2024', alt: 'Cream and brown housewarming invitation' },
   { file: 'Pink Apartment Illustration Housewarming Party Invitation.jpg', title: 'Warm Our New Apartment', category: 'invitations', label: 'Invitation · Housewarming', year: '2024', alt: 'Pink illustrated apartment housewarming invitation' },
-  { file: 'WhatsApp Image 2026-11-15 at 3.20.52 PM.jpeg', title: 'Winslough Food Fair', category: 'invitations', label: 'Invitation · Food event', year: '2025', alt: 'Winslough Food Fair event poster' },
   { file: 'The Winslough Food Fair.jpg', title: 'Winslough Menu', category: 'invitations', label: 'Event design · Food fair', year: '2025', alt: 'Winslough Food Fair menu design' },
-  { file: 'Josephine.jpg', title: 'Josephine', category: 'editorial', label: 'Editorial · Book cover', year: '2025', alt: 'Josephine book cover design' },
-  { file: 'WhatsApp Image 2026-11-15 at 3.20.53 PM.jpeg', title: 'Josephine · Alternate', category: 'editorial', label: 'Editorial · Book cover', year: '2025', alt: 'Josephine alternate book cover design' }
+  { file: 'Josephine.jpg', title: 'Josephine', category: 'editorial', label: 'Editorial · Book cover', year: '2025', alt: 'Josephine book cover design' }
 ];
 
 const categoryNames = { all: 'All work', posters: 'Posters & campaigns', branding: 'Branding & social', invitations: 'Invitations & events', editorial: 'Editorial & covers' };
-document.querySelector('.note-index').textContent = 'END OF SELECTION · 22 / 22';
+document.querySelector('.note-index').textContent = 'END OF SELECTION · 18 / 18';
+document.querySelector('.topbar nav a[href="#work"] span').textContent = '18';
+document.title = 'Gauri Pal — Creative design portfolio';
+document.querySelector('meta[name="description"]').content = 'Creative portfolio of Gauri Pal, featuring posters, branding, invitations, social designs and editorial covers.';
+document.querySelector('.wordmark').firstChild.textContent = 'GP';
+document.querySelector('.wordmark').setAttribute('aria-label', 'Gauri Pal home');
+document.querySelector('.nav-contact').href = 'mailto:gauripal54@gmail.com';
+document.querySelector('.nav-contact').firstChild.textContent = 'Email Gauri ';
+document.querySelector('.about-mark > span').textContent = 'GP';
+document.querySelector('.about-description').textContent = 'I’m Gauri Pal, a graphic designer creating expressive posters, thoughtful invitations, bold social designs and visuals that make every message feel memorable.';
+document.querySelector('.about-copy .text-link').href = 'mailto:gauripal54@gmail.com';
+document.querySelector('.about-copy .text-link').firstChild.textContent = 'gauripal54@gmail.com · 9930192378 ';
+document.querySelector('.footer-title').href = 'mailto:gauripal54@gmail.com';
+document.querySelector('.footer-meta p').textContent = 'Graphic designer · Gauri Pal';
+document.querySelector('.footer-meta a[href^="mailto:"]').href = 'mailto:gauripal54@gmail.com';
+document.querySelector('.footer-meta a[href^="mailto:"]').textContent = 'GAURIPAL54@GMAIL.COM';
+document.querySelector('.footer-meta > span:last-child').textContent = 'CALL · 9930192378';
 const portfolioFilters = document.querySelectorAll('.filter-button');
 const grid = document.querySelector('.project-grid');
 const portfolioDialog = document.querySelector('.project-dialog');
